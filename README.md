@@ -47,12 +47,7 @@ Dexec.args=”<port> <No of threads>”
 Thread per client server:
 mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.TPCMain” -
 Dexec.args=”<port>”
-
-The server directory should contain a pom.xml file and the src directory. Compilation will be done from the server folder using:
-
-mvn compile
-
-
+  
 # Program Execution :
 run the following commands:
 > tar -zxf #ID1_#ID2.tar.gz
@@ -62,7 +57,4 @@ run the following commands:
 > mvn clean
 > mvn compile
 Once this is done all the code should be compiled properly. 
-
-######################################################
-Now use the run command lines in the assignment to test your software.
-Note: you will need to open one terminal session for the server and more for each client.
+Note: the terminal sesiion should be open for the server and more for each client.
