@@ -39,6 +39,19 @@ Opcode : 11 | Operation: Check my current courses (MYCOURSES)
 Opcode : 12 | Operation: Acknowledgement (ACK)
 Opcode : 13 | Operation: Error (ERR)
 
+# Testing run commands:
+Reactor server:
+mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.ReactorMain” -
+Dexec.args=”<port> <No of threads>”
+
+Thread per client server:
+mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.TPCMain” -
+Dexec.args=”<port>”
+
+The server directory should contain a pom.xml file and the src directory. Compilation will be done from the server folder using:
+
+mvn compile
+
 
 # Program Execution :
 run the following commands:
