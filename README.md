@@ -3,7 +3,7 @@ Course-registraion-system-Server-and-Client
 
 # Description:
 implement a “Course Registration System” server and client. 
-The implementation of the server is based on the Thread-Per-Client (TPC) and Reactor server, written in Java. The client is written in C++. 
+The implementation of the server is based on the Thread-Per-Client (TPC) and Reactor design pattern, written in Java. The client is written in C++. 
 The communication between the server and the client(s) is based on binary communication protocol.
 
 # Establishing a client/server connection
